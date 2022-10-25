@@ -9,12 +9,16 @@ Para exercitar as informações absorvidas fiz um simples TO-DO onde todo o seu 
 
 Primeiro passo:
 
-* Adicionar o link para ativar a utilização do python. link: https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js
+* Adicionar o link para ativar a utilização do python. link: https://pyscript.net/alpha/pyscript.js
 
 OBS: 
 ```
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+<script defer src="https://pyscript.net/alpha/pyscript.js"></script>
 ```
 
 ![img](./README/TODOadd.png)
+
+Adicionando os links para poder usar o pyscript, agora é só aplicar os princípios do python.
+Para manipular os elementos DOM, use a função ``` Element() ``` e passe o atributo que redireciona para o elemento, neste caso o ID ou Class.
 
